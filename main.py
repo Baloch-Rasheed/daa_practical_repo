@@ -19,8 +19,16 @@ def main():
     linkedList.insert(node3)
     linkedList.insert(node4)
 
-    linkedList.treverse()
+    linkedList
 
+    print("Treverse dafault")
+    linkedList.treverse()
+    # print("Deleting 78...")
+    # linkedList.delete(68)
+    # linkedList.treverse()
+    print('Modifying 68 -> 43')
+    linkedList.modify(50, 43)
+    linkedList.treverse()
 
     
     
